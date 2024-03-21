@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio 2</title>
+<link rel="stylesheet" type="text/css" href="styles/elements.css">
+<link rel="stylesheet" type="text/css" href="styles/fonts.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<style> 
+    .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url("assets/Fallen Angel.gif");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  </style>
+   
+  </head>
+  <body>
+  
+  <div class="hero-image" alt="A angel in a snowy field with her wings spread out. 
+  There are wounds on her wings and she is on her knees crying">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Anna</h1>
+      <p>Welcome</p>
+      <button>Contact me</button>
+    </div>
+  </div>
+  
+  <!--Content-->
+  <section class="content-section">
+    <div class="content">
+      <img src="assets/Donair_1.gif" alt="looped animation of a blue round monster bouncing up and down 
+      with a cute but furocious face with a small heart above him appearing each time" 
+      class="left-image">
+      <div class="text">
+        <header>
+          <h2>Welcome!</h2>
+        </header>
+        <p>This is my personal portfolio of my casual artworks. I hope you enjoy your stay!</p>
+        <button>Contact Me</button>
+      </div>
+    </div>
+  </section>
+  
+
+  <!--Card-->
+  <div class="card-container">
+    <div class="card">
+      <img src="assets/Cat Girl.gif" alt="A black and white digital drawing of a girl 
+      with cat ears smiling with a small black cat wearing a tux and bow tie underneath her just sitting there. In a anime art style." 
+      style="width:100%">
+      <div class="container">
+        <h4><b>Cat Girl Sketch</b></h4>
+        <p>2023</p>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img src="assets/Angel.gif" alt="A digital drawing of an angelic girl shoulders and above. Has light blue hair and white feathers on both sides
+      of her head. There are 2 angels wings covering her chest area." style="width:100%">
+      <div class="container">
+        <h4><b>Cat Girl Sketch</b></h4>
+        <p>2023</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="assets/Devil's Daughter.gif" alt="A digital drawing of a girl with black hair and red eyes. There are shadowy
+      hands behind her and she has some blood on her cheeks. There is a wound on her chest in the shape of a upside down cross." style="width:100%">
+      <div class="container">
+        <h4><b>Cat Girl Sketch</b></h4>
+        <p>2023</p>
+      </div>
+    </div>
+  
+    <div class="card">
+      <img src="assets/Too Late.jpg" alt="A surreal digital drawing of a girl with purple/blue guts 
+      spilling out and the leftside of her ribs exposed. There is also a rose coming out of her chest. It is not gorey and has a space/galaxy theme with stars surrounding her." style="width:100%">
+      <div class="container">
+        <h4><b>Cat Girl Sketch</b></h4>
+        <p>2023</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Accordion-->
+  <h2>About me</h2>
+  <h3>Q&A</h3>
+  
+  <button class="accordion">Age, pronouns, occupation?</button>
+  <div class="panel">
+    <p>I'm born in 2001 and I go by she/her.</p>
+  </div>
+  
+  <button class="accordion">Are you available for hire?</button>
+  <div class="panel">
+    <p>Yes! I'm happy to do art commissions or work on design projects!
+        I'm very flexible so feel free to send me a message. 
+    </p>
+  </div>  
+  
+  <button class="accordion">Fun fact about yourself?</button>
+  <div class="panel">
+    <p> I love video games and the world they create. I hope to keep working on my art skills
+        to become a concept or character designer in the future
+    </p>
+  </div>
+  
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>&copy; <span id="year"></span> Anna Liu. All rights reserved.</p>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Artworks</a></li>
+            <li><a href="#">Contact me</a></li>
+           
+          </ul>
+          <div class="footer-icons">
+            <!--icons-->
+            <i class="material-icons" alt="cloud icon">cloud</i> <!--i thought these icons were cute and i wanted to try google fonts-->
+            <i class="material-icons" alt="heart icon">favorite</i>
+          </div>
+        </div>
+        <div class="footer-map">
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/-ffRvuRRVEE">
+            </iframe>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script> //footerscript Date//
+  document.getElementById('year').textContent = new Date().getFullYear();
+  
+  var acc = document.getElementsByClassName("accordion");
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
+  
+  
+    
+   
+  </body>
+  </html>
