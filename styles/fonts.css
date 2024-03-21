@@ -1,0 +1,81 @@
+/*general CSS*/
+  h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  
+  h3 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+  }
+
+  header {
+    text-align: center;
+  }
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  p {
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 1rem; /* i know its in font css but i put it here just in case*/
+    font-weight: 700;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #D88C9A;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+  }
+  
+    button:hover {
+    background-color: #555;
+    color: white;
+  }
+  body, html {
+    height: 100%;
+    margin: 10px;
+    font-family: "Pixelify Sans", sans-serif;
+    
+  }
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  
