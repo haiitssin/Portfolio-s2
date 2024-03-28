@@ -56,17 +56,52 @@
     font-size: 25px;
     
   }
+
+  #clearButton  { /*new button for pokemon card*/
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+  }
   
     button:hover {
     background-color: #555;
     color: white;
   }
+
+
+  #clearButton:hover { /*new button for pokemon card*/
+    background-color: #cc0000;
+  
+  }
+
   body, html {
     height: 100%;
     margin: 10px;
     font-family: "Pixelify Sans", sans-serif;
     
   }
+
+  .pokecard  { /* new pokemon card*/
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    float:left;
+  }
+
+
+
+
   /* Responsive Styles */
   @media (max-width: 768px) {
     h1 {
@@ -78,4 +113,4 @@
     }
   }
 
-  
+ 
