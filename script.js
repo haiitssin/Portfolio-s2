@@ -5,7 +5,7 @@ async function fetchPokemonData(pokemonName) {
     return data;
 }
 
-// put infomation into this layout for pokemon card
+// put infomation into this layout for pokemon card?
 function generatePokemonCard(pokemon) {
     return `
     <div class="pokecard">
