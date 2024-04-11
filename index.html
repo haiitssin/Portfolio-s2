@@ -40,15 +40,15 @@
   
 <div class="hero-image">
   <div class="hero-text">
-    <h1 style="font-size:100px;">Anna</h1>
+    <h1 style="font-size:100px;">ANNA</h1>
     <button>Contact me</button>
   </div>
 </div>
-  
+   
 <!--Content-->
 <section class="content-section">
   <div class="content">
-    <img src="assets/Donair_1.gif" alt="looped animation of a blue round monster bouncing up and down with a cute but furocious face with a small heart above him appearing each time" class="left-image">
+    <img src="assets/Donair_1.gif" alt="animation of a blue round monster bouncing up and down cutely with a heart above him" class="left-image">
     <div class="text">
       <header>
         <h2 style="color: #8E7DBE;">Welcome!</h2>
@@ -63,40 +63,40 @@
 <!--Card-->
 <div class="card-container">
   <div class="card">
-    <img src="assets/Cat-Girl.gif" alt="A black and white digital drawing of a girl with cat ears smiling with a small black cat wearing a tux and bow tie underneath her just sitting there. In a anime art style." style="width:100%">
+    <img src="assets/Cat-Girl.gif" alt="Sketch of a girl with cat ears and black cat." style="width:100%">
     <div class="container">
-      <h4><b>"Cat Girl Sketch"</b></h4>
+      <h1><b>"Cat Girl Sketch"</b></h1>
       <p>2023</p>
     </div>
   </div>
   
   <div class="card">
-    <img src="assets/Angel.gif" alt="A digital drawing of an angelic girl shoulders and above. Has light blue hair and white feathers on both sides of her head. There are 2 angels wings covering her chest area." style="width:100%">
+    <img src="assets/Angel.gif" alt="Artwork of angelic girl with blue hair and wings." style="width:100%">
     <div class="container">
-      <h4><b>"Angel Portrait"</b></h4>
+      <h1><b>"Angel Portrait"</b></h1>
       <p>2024</p>
     </div>
   </div>
 
   <div class="card">
-    <img src="assets/Devil's-Daughter.gif" alt="A digital drawing of a girl with black hair and red eyes. There are shadowy hands behind her and she has some blood on her cheeks. There is a wound on her chest in the shape of a upside down cross." style="width:100%">
+    <img src="assets/Devil's-Daughter.gif" alt="A digital drawing of a girl with black hair and red eyes and a cross like wound on her chest." style="width:100%">
     <div class="container">
-      <h4><b>"Devil's Daughter"</b></h4>
+      <h1><b>"Devil's Daughter"</b></h1>
       <p>2019</p>
     </div>
   </div>
   
   <div class="card">
-    <img src="assets/Too-Late.jpg" alt="A surreal digital drawing of a girl with purple/blue guts spilling out and the leftside of her ribs exposed. There is also a rose coming out of her chest. It is not gorey and has a space/galaxy theme with stars surrounding her." style="width:100%">
+    <img src="assets/Too-Late.jpg" alt="A graphic surreal drawing of a girl in space/galaxy theme with stars surrounding her." style="width:100%">
     <div class="container">
-      <h4><b>"Too Late"</b></h4>
+      <h1><b>"Too Late"</b></h1>
       <p>2024</p>
     </div>
   </div>
 </div>
 
 <!--Accordion-->
-<h1 style="color:#D88C9A">About me</h1>
+<h1 style="color:#e04b66">About me</h1>
   
 <button class="accordion">Age, pronouns, occupation?</button>
 <div class="panel">
@@ -118,15 +118,15 @@
   <div class="container-with-background ">
     <div class="footer-content">
       <div class="footer-info">
-        <h3>&copy; <span id="year"></span> Anna Liu. All rights reserved.</h3>
+        <p style="color:#000000"> &copy; <span id="year"></span> Anna Liu. All rights reserved.</p>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Artworks</a></li>
-          <li><a href="#">Contact me</a></li>
+          <li><a href="#" style="color:#000000">Home</a></li>
+          <li><a href="#" style="color:#000000">Artworks</a></li>
+          <li><a href="#" style="color:#000000">Contact me</a></li>
         </ul>
         <div class="footer-icons">
-          <i class="material-icons" title="cloud icon">cloud</i>
-          <i class="material-icons" title="heart icon">favorite</i>
+          <i class="material-icons" title="cloud icon" style="color:#000000">cloud</i>
+          <i class="material-icons" title="heart icon" style="color:#000000">favorite</i>
         </div>
       </div>
       <div class="footer-map"> <!-- not for a map but it worked for sizing video hehe-->
@@ -156,17 +156,19 @@
   </script>
     
     <!--pokemon api-->
+    
     <h2>Pokémon Team Maker</h2>
-    <div class="container">
-      <h1>Select Pokémon to make a team:</h1>
-      <select id="pokemonSelect"> <!-- makes the options i think-->
-          
-      </select>
-      <button id="clearButton" >Clear Team</button>
-      <div id="pokemonCards"> <!--the actual card-->
-          
+      <div class="container">
+        <h1>Select Pokémon to make a team:</h1>
+        <label for="pokemonSelect">Select Pokémon:</label>
+        <select id="pokemonSelect">
+          <option value="">Select Pokémon here</option>
+        </select>
+        <button id="clearButton">Clear Team</button>
+        <div id="pokemonCards">
+        </div>
       </div>
-  </div>
+
 
   
   <script src="script.js"></script>

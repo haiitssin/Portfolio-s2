@@ -53,8 +53,8 @@
     outline: 0;
     display: inline-block;
     padding: 10px 25px;
-    color: black;
-    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    background-color: #db1a8e;
     text-align: center;
     cursor: pointer;
   }
@@ -105,7 +105,7 @@
   /*accordion*/
 .accordion {
     width: 100%;
-    background-color: #8E7DBE;
+    background-color: #6d50bf;
     color: #ffffff;
     cursor: pointer;
     padding: 18px;
@@ -159,7 +159,7 @@
   }
   
   .active, .accordion:hover {
-    background-color: #D88C9A;
+    background-color: #ea1e44;
   }
   
   .accordion:after {
@@ -213,7 +213,7 @@
     background-repeat: no-repeat;
     padding: 20px;
     border-radius: 10px;
-    /* Add any other styles as needed */
+   
 }
   
   .footer-content {
